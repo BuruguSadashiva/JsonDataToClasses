@@ -8,10 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout{
+private let cellId = "cellId"
+    var appCategory = [AppCategory]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        collectionView?.backgroundColor = UIColor.white
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -13,6 +13,8 @@
 		04B2E80A21394610007AFB02 /* JsonDataToClasses.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04B2E80821394610007AFB02 /* JsonDataToClasses.xcdatamodeld */; };
 		04B2E80C21394610007AFB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B2E80B21394610007AFB02 /* Assets.xcassets */; };
 		04B2E80F21394610007AFB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2E80D21394610007AFB02 /* LaunchScreen.storyboard */; };
+		04B2E819213952AD007AFB02 /* ModelObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2E818213952AD007AFB02 /* ModelObjects.swift */; };
+		04B2E81B21395ABA007AFB02 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2E81A21395ABA007AFB02 /* CollectionViewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		04B2E80B21394610007AFB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B2E80E21394610007AFB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B2E81021394610007AFB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B2E818213952AD007AFB02 /* ModelObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelObjects.swift; sourceTree = "<group>"; };
+		04B2E81A21395ABA007AFB02 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,23 @@
 			children = (
 				04B2E80121394610007AFB02 /* AppDelegate.swift */,
 				04B2E80321394610007AFB02 /* ViewController.swift */,
+				04B2E81A21395ABA007AFB02 /* CollectionViewVC.swift */,
 				04B2E80521394610007AFB02 /* Main.storyboard */,
 				04B2E80B21394610007AFB02 /* Assets.xcassets */,
+				04B2E81721394D20007AFB02 /* Models */,
 				04B2E80D21394610007AFB02 /* LaunchScreen.storyboard */,
 				04B2E81021394610007AFB02 /* Info.plist */,
 				04B2E80821394610007AFB02 /* JsonDataToClasses.xcdatamodeld */,
 			);
 			path = JsonDataToClasses;
+			sourceTree = "<group>";
+		};
+		04B2E81721394D20007AFB02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04B2E818213952AD007AFB02 /* ModelObjects.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B2E819213952AD007AFB02 /* ModelObjects.swift in Sources */,
 				04B2E80421394610007AFB02 /* ViewController.swift in Sources */,
 				04B2E80A21394610007AFB02 /* JsonDataToClasses.xcdatamodeld in Sources */,
 				04B2E80221394610007AFB02 /* AppDelegate.swift in Sources */,
+				04B2E81B21395ABA007AFB02 /* CollectionViewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
